@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Landing Page</title>
+  <link href="Montserrat.css" rel="stylesheet">
+  <link rel="stylesheet" href="bootstrap4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <!--Contact Header-->
+
+  <header id="header">
+
+    <div class="navbar navbar bg-white p-2">
+      <div class="container d-flex justify-content-between">
+        <a href="mailto:example@mail.de">
+          <p class="my-0 mr-md-4 font-weight-normal">example@mail.de</p>
+        </a>
+        <p class="my-0 mr-md-4 font-weight-normal">|</p>
+        <p class="my-0 mr-md-auto font-weight-normal"> +49 123456789</p>
+        <nav class="my-2 my-md-0 mr-md-3">
+          <a class="p-2 text-dark" href="https://twitter.com/nibortwitti"><img class="ch-twitter"
+              src="logos/Twitter_Logo_Blue.svg"></a>
+        </nav>
+      </div>
+    </div>
+
+    <!--Header-->
+    <div id="navmain" class="navbar navbar bg-white border-bottom shadow-sm p-4">
+      <div class="container d-flex justify-content-between">
+        <img src="logos/Logo.png" alt="LandingPage" id="header-img">
+        <nav class="my-2 my-md-0 mr-md-3" id="nav-bar">
+          <a class="p-2 text-dark aktiv nav-link" href="#main_div">Startseite</a>
+          <a class="p-2 text-dark nav-link" href="#demo">Demo</a>
+          <a class="p-2 text-dark nav-link" href="#features">Features</a>
+        </nav>
+        <a class="btn hd_an btn_blue" href="#order">Order</a>
+      </div>
+    </div>
+
+  </header>
+
+  <!--Main-->
+
+  <main id="particles-js">
+    <div id="main_div" class="position-absolute overflow-hidden p-3 p-md-5 text-center">
+      <div class="m-top col-md-8 p-lg-6 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal" id="mainTitle">NiborNet<span>Radio</span></h1>
+        <p id="main_sub" class="lead font-weight-normal">Easy to use Internet Radio</p>
+        <a class="btn hd_an btn_blue" href="#order">Order</a>
+      </div>
+      <div class="product-device shadow-sm d-none d-md-block"></div>
+      <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+    </div>
+  </main>
+
+  <!--Section: Über UNS-->
+
+  <section id="demo" style="padding-top:12rem;">
+    <center>
+      <div class="card bg-white mb-3" style="max-width: 50rem; margin-left: 25%; margin-right: 25%;">
+        <div class="card-body">
+          <h5 class="card-title text-center">Demo</h5>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" id="video" src="https://youtu.be/ntdA9GgLPpY?autoplay=1"></iframe>
+          </div>
+      </div>
+    </center>
+  </section>
+
+  <!-- Section: Features -->
+
+  <section id="features">
+    <h2 id="Funktion_title" class="p-2">Features</h2>
+    <div class="f_list">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="c-hover card">
+            <div class="card-body">
+              <h5 class="card-title">Mobie and Desktop App</h5>
+              <p class="card-text">You can hear Radio on your phone and on Desktop</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="c-hover card">
+            <div class="card-body">
+              <h5 class="card-title">Auto Update</h5>
+              <p class="card-text">The Desktop App is automatically updated. So you have the newest Version of all time.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+    <!--Section: Order -->
+
+    <section id="order" style="padding-top:12rem;">
+      <center>
+        <h2 id="Order-title" class="p-2">Order</h2>
+        <div class="card bg-white mb-3" style="max-width: 50rem; margin-left: 25%; margin-right: 25%;">
+          <div class="card-body">
+            <form action="https://www.freecodecamp.com/email-submit" id="form">
+              <div class="form-group">
+                <input type="email" name="email" class="form-control" aria-describedby="emailHelp" id="email" required placeholder="Email address">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <input class="btn btn-primary" type="submit" value="Submit" id="submit">
+            </form>
+        </div>
+      </center>
+    </section>
+
+  <!--Footer-->
+  <footer id="Footer" class="my-5 pt-5 text-muted text-center text-small">
+    <p class="mb-1">&copy; 2020 <a style="color: grey;" href="https://niborblog.de">Robin Fey</a></p>
+    <ul class="list-inline">
+      <li class="list-inline-item"><a href="#">Datenschutz</a></li>
+      <li class="list-inline-item"><a href="#">Impressum</a></li>
+    </ul>
+  </footer>
+
+  <!--Javascript Bootstrap at last-->
+  <script src="nav-fix.js"></script>
+  <script type="text/javascript" src="Particles/particles.js"></script>
+  <script src="Particles/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="bootstrap4/js/bootstrap.min.js"></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

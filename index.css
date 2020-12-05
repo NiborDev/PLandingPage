@@ -1,0 +1,122 @@
+html {
+    font-size: 14px;
+  }
+  @media (min-width: 768px) {
+    html {
+      font-size: 16px;
+    }
+  }
+
+  body {
+    background: #fff;
+    color: #444;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .nav-link {
+    float: left;
+  }
+
+  @media (max-width: 768px) {
+    #mainTitle{
+      font-size: 2.5rem !important;
+    }
+  }
+
+  h2 {
+    color: #0c2e8a;
+  margin-bottom: 30px;
+  font-size: 64px;
+  font-weight: 700;
+  }
+
+  h1 span {
+    color: #50d8af;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+
+  .btn_blue {
+    color: #50d8af;
+    border-color:#50d8af;
+  }
+
+  .hd_an:hover {
+    color: #50a8f9;
+    border-color: #50a8f9
+  }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+  p {
+    color: grey;
+  }
+
+  /*
+  *Contact Header
+  */
+
+  .ch-twitter {
+    width: 25px;
+    height: 25px;
+  }
+
+  /**
+  * Main
+  **/
+
+  #main_div {
+    width: 100%;
+  }
+
+  main {
+    height: 40rem;
+  }
+
+  .m-top {
+    padding-top: 7rem;
+  }
+
+  #Footer a {
+    color: #0c2e8a;
+  }
+
+  /**
+  * Funktion section
+  **/
+#Funktion_title {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-top: 12rem;
+  padding-top: 11rem;
+  text-decoration-line: underline;
+  margin-bottom: 3%;
+}
+
+.f_list {
+  padding: 0% 15% 0% 15%;
+}
+
+.row {
+  margin-top: 3%;
+}
+
+
+/**
+* Order section
+**/
+
+#email{
+  width: 60%;
+}
